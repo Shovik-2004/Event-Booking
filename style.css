@@ -1,0 +1,169 @@
+@media only screen and (max-width: 768px) {
+    .navleft h2 {
+        margin-left: 0;
+    }
+
+    #location svg {
+        margin-left: 0;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+
+    .right {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.body {
+    font-family: Inter;
+}
+
+.navleft h2 {
+    color: #CF2D2D;
+    margin-left: 30px;
+}
+
+#location svg {
+    margin-left: 30px;
+}
+
+#mumbai {
+    color: #989090;
+}
+
+nav {
+
+    justify-content: center;
+}
+
+.centre {
+    text-align: center;
+    margin-top: -50px;
+
+}
+
+.search-container {
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.search-box {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.category-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.menu li {
+    float: left;
+    margin-right: 10px;
+    display: inline;
+
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #989090;
+}
+
+.menu li a:hover {
+    background-color: #f0f0f0;
+}
+
+.menu {
+    margin-left: 390px;
+    margin-top: -20px;
+}
+
+.right {
+    text-align: right;
+    margin-right: 210px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+
+}
+
+.right span {
+    font-family: "Inter";
+    color: #989090;
+}
+
+.sign {
+    position: relative;
+    margin-left: 9px;
+    border: 1.3px solid #989090;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.bgimage {
+    position: relative;
+    background-image: url('Images/Banner.svg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.hero_title {
+    font-size: 4rem; 
+    margin-bottom: 10px; 
+    position: absolute;
+    top: 100px; 
+    left: 990px; 
+    right: -600px;
+    transform: translateX(-70%);
+   
+}
+
+.hero_desc {
+    font-size: 3.8rem; 
+    position: absolute;
+    top: 200px; 
+    left: 800px; 
+    right: -600px;
+    transform: translateX(-50%);
+}
+
+.desc{
+    position: absolute;
+    top: 400px; 
+    left: 1px; 
+    right: -100px;
+}
+
